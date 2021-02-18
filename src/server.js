@@ -5,7 +5,7 @@ const app = express();
 
 app.get("/", async (req, res) => {
   console.log(`[${new Date().toISOString()}] Hit!`);
-  res.send("Hello from my-branch!");
+  res.send("Hello from asdfasdf!");
 });
 
 app.listen(port, () => {
